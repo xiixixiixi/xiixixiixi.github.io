@@ -1,0 +1,141 @@
+body {
+    /* set warna background body menjadi jingga */
+    background: linear-gradient(to bottom, #d38312, #a83279);
+    /* set style tulisan menjadi Verdana/Arial dengan tipe sans-serif (tanpa kait) */
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapper {
+    /* set jarak Luar box model menjadi 0 */
+    margin: 0 auto;
+    /* Set Lebar Layar menjadi 80% saja */
+    width: 80%;
+    /* set lebar minimal Layar 960px dan maksimal layar 1200px */
+    min-width: 960px; max-width: 1200px;
+    background: linear-gradient(to left, #003973, #e5e5be);
+    /* set warna tulisan menjadi biru */
+    color: #000066;
+}
+
+header {
+    background: linear-gradient(to left, #003973, #e5e5be);
+    color: #00008B;
+    /* set tulisan lebih besar 20 */
+    font-size: 120%;
+    /* tambah jarak di bagian kiri sebesar 50px */
+    margin-left: 50px;
+    /* tambah ukuran header atas 10 px, kanan-10px, bawah-10px, bawah-80px */
+    padding: 10px 10px 10px 80px;
+    /* set agar bg tidak berulang-ulang */
+    background-repeat: no-repeat;
+    /* tambah logo */
+    background-image: url(img/logo.png);
+}
+
+/* menghilangkan garis  bawah pada link*/
+header a { text-decoration: none;}
+/* mengubah warna link menjadi kuning ketika didekati oleh mouse */
+header a:hover { color: #FFA500}
+
+
+h1 {
+    /* tambah jarak bawah 20px */
+    margin-bottom: 20px;
+    margin-top: 10 px;
+    margin-left: 75px;
+}
+
+nav {
+    /* Set Navigasi menjadi rata kiri*/
+    float: left;
+    width: 200px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+nav ul {
+    /* menghilangkan tanda bulat pada list */
+    list-style-type:  none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    /* membuat list agar tidak bertabrakan */
+    display: block;
+    background-color: #00008B;
+    /*membuat garis bawah pada setiap tulisan berwarna putih*/
+    border-bottom: 1px solid #FFFFFF;
+}
+
+nav a:link { color: #ffffff}
+nav a:visited { color: #EAEAEA}
+nav a:hover {
+    color: #00008b;
+    background-color: #FFA500;
+}
+
+main {
+    background-color: #ffffff;
+    color: #000000;
+    /* 10px atas bawah 20px kiir kanan */
+    padding: 10px 20px;
+    display: block;
+    overflow: auto;
+}
+
+#floatright {
+    float: right;
+    /* 10px atas kanan bawah kiri */
+    margin: 10px;
+}
+
+#floatleft {
+    float: left;
+    /* 10px atas kanan bawah kiri */
+    margin: 10px;
+}
+
+.section {
+    background-color: #d38312;
+    overflow: auto;
+    
+}
+
+footer {
+    font-size: 90%;
+    text-align: left;
+    padding: 10px;
+    margin-left: 200px;
+    background: linear-gradient(to left, #0575e6, #021b79);
+    color: #ffffff;
+    clear: both;
+}
+
+footer a:link {
+    color: #ffffff
+}
+
+footer a:hover {
+    color: #ffa500;
+}
+
+#image {
+    display: inline-block;
+    width: 160px;
+    padding-bottom: 10px;
+    margin: 10px;
+    background-color: #c2c2d6;
+    text-align: center;
+    font-style: italic;
+    font-family: georgia, serif;
+    text-shadow: 1px 1px 4px white;
+}
+
+/* membuat link active pada navbar */
+.hover {
+    background-color: #ffa500;
+    color: #00008b;
+}
